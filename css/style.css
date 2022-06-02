@@ -1,0 +1,132 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: beige;
+    /* background-color: #202124; */
+    /* background-color: #202124; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #202124;
+    background-image: url("../src/bg.jpg");   
+}
+
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ nav li {
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: large;
+}
+
+ nav li a {
+    text-shadow: 0px 0px 5px white;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+nav li a:hover {
+    color: aqua;
+}
+
+
+.droid-icon img {
+    width: 64px;
+    height: 64px;
+    background-color: black;
+}
+
+.logo-text img {
+    width: 20vw;
+    height: auto;    /* width: 10%;
+    height: 64px; */
+}
+
+
+.r2d2-section  > div {
+    border: 3px solid greenyellow;
+    box-shadow: 0px 0px 40px rgb(90, 193, 90);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #202124;
+    opacity: 90%;
+    margin: 10%;
+    border-radius: 10px;
+    padding: 50px 50px;
+}
+
+.droid-desc {
+    display: flex;
+    flex-direction: column;
+}
+
+.droid-desc h1 {
+    font-size: xx-large;
+}
+
+.r2d2-section img {
+    height: 13vw;
+    border: 2px solid white;
+    box-shadow: 0px 0px 10px white;
+    border-radius: 300px;
+}
+
+#team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to right, cyan, green)
+}
+
+#team h1 {
+    color: black;
+    text-transform: uppercase;
+    margin: 50px;
+    font-size: 3rem;
+}
+
+#team div {
+    display: flex;
+    justify-items: space-evenly;
+}
+
+#team div div {
+    /* margin: 30px 10%; */
+    flex-direction: column;
+    padding: 80px 40px;
+    align-items: center;
+}
+
+#team div div img {
+    height: 10vw;
+    width: 14vw;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px black;
+    transition: all 0.3s ease 0s;
+}
+
+#team div div img:hover {
+    height: 11vw;
+    width: 15vw;
+}
+
+footer {
+    background: linear-gradient(to left, orange, pink);
+    padding: 30px 30px;
+}
+
+
+
+footer input {
+    border-radius: 10px;
+    color: black;
+}
